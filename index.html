@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kopramsega</title>
+    <link
+      rel="shortcut icon"
+      href="/assets/KOPRAMSEGA.png"
+      type="img/x-icons"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.min.css"
+    />
+
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      * {
+        font-family: "Poppins", sans-serif;
+      }
+
+      #nav-menu.expand {
+        width: 100%;
+        height: 100%;
+        margin-top: 8px;
+      }
+
+      .img {
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+          url(/assets/header.JPG);
+        background-position: center;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body class="bg-[#fafafa]">
+    <main class="h-[3500vh] w-full text-[#212427]">
+      <!-- navbar -->
+      <div
+        class="container lg:px-20 max-h-full bg-orange-950 text-[#fafafa] flex justify-between w-full p-3 mx-auto shadow-[0 4px 2px -2px gray] flex-col lg:flex-row"
+        id="navbar-div"
+      >
+        <div class="brand flex items-center justify-between max-w-full">
+          <div class="brand flex items-center gap-2">
+            <img src="/assets/KOPRAMSEGA.png" class="w-7 cursor-pointer" />
+            <h1 class="font-semibold text-2xl">KOPRAMSEGA</h1>
+          </div>
+          <div class="menu-icon lg:hidden">
+            <i class="ri-menu-4-line ri-xl cursor-pointer" id="menu"></i>
+          </div>
+        </div>
+        <nav class="nav inline-block">
+          <ul
+            id="nav-menu"
+            class="text-start items-center justify-center flex flex-col w-0 h-0 lg:h-full lg:w-full overflow-hidden gap-4 lg:gap-5 lg:flex-row font-semibold"
+          >
+            <li><a href="#" class="lg:inline-block">Home</a></li>
+            <li><a href="#" class="lg:inline-block">About</a></li>
+            <li><a href="#" class="lg:inline-block">Service</a></li>
+            <li><a href="#" class="lg:inline-block">Pricing</a></li>
+            <li><a href="#" class="lg:inline-block">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!-- navbar -->
+      <!-- header -->
+      <div
+        class="container mx-auto w-full lg:max-h-full max-h-[1600px] bg-[#fafafa]"
+      >
+        <div class="img flex w-full h-[690px] lg:h-[710px]">
+          <div
+            class="content w-full max-h-full flex lg:px-4 flex-col justify-center lg:justify-between"
+          >
+            <div
+              class="my-auto mx-auto z-10 text-[#fafafa] flex flex-col drop-shadow-xl"
+            >
+              <p class="font-semibold lg:text-xl text-sm text-center">
+                Dewan Ambalan Smk Negeri 6 Surakarta
+              </p>
+              <h2
+                class="text-4xl lg:text-6xl leading-tight font-semibold text-center flex"
+              >
+                Sambernyawa <span class="hidden lg:flex">-</span> DewiSartika
+              </h2>
+              <p class="font-medium lg:text-base text-sm text-center">
+                01.129/01.130
+              </p>
+            </div>
+            <div
+              class="media-social bottom-0 flex justify-center gap-5 lg:justify-between"
+            >
+              <ul class="text-[#fafafa] flex items-center gap-5 my-5">
+                <li class="">
+                  <a
+                    href=""
+                    class="bg-slate-800 w-12 h-12 flex items-center justify-center rounded-md hover:rotate-12 hover:scale-110 duration-300 ease-in-out"
+                  >
+                    <i class="ri-instagram-line ri-xl"></i
+                  ></a>
+                </li>
+                <li class="">
+                  <a
+                    href=""
+                    class="bg-slate-800 w-12 h-12 flex items-center justify-center rounded-md hover:rotate-12 hover:scale-110 duration-300 ease-in-out"
+                  >
+                    <i class="ri-tiktok-fill ri-xl"></i
+                  ></a>
+                </li>
+              </ul>
+              <ul class="text-[#fafafa] flex items-center gap-5 my-5">
+                <li class="">
+                  <a
+                    href=""
+                    class="bg-slate-800 w-12 h-12 flex items-center justify-center rounded-md hover:rotate-12 hover:scale-110 duration-300 ease-in-out"
+                  >
+                    <i class="ri-whatsapp-line ri-xl"></i
+                  ></a>
+                </li>
+                <li class="">
+                  <a
+                    href=""
+                    class="bg-slate-800 w-12 h-12 flex items-center justify-center rounded-md hover:rotate-12 hover:scale-110 duration-300 ease-in-out"
+                  >
+                    <i class="ri-mail-line ri-xl"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="info lg:w-[75%] bg-[#fafafa] mx-auto lg:shadow-xl gap-10 lg:gap-0 py-16 lg:-mt-24 flex lg:flex-row flex-col justify-around items-center lg:py-8 w-full"
+        >
+          <div class="item-1 items-center justify-center flex flex-col">
+            <i
+              class="ri-team-line lg:ri-4x ri-6x text-purple-600 -mb-4 -mt-5"
+            ></i>
+            <div
+              class="text-[#212427] flex flex-col text-center gap-3 lg:gap-0"
+            >
+              <h1 class="font-semibold text-3xl">1K+</h1>
+              <p class="font-semibold">Dewan & Alumni</p>
+            </div>
+          </div>
+          <div class="item-1 items-center justify-center flex flex-col">
+            <i
+              class="ri-tools-fill lg:ri-4x ri-6x text-amber-500 -mb-4 -mt-5"
+            ></i>
+            <div
+              class="text-[#212427] flex flex-col text-center gap-3 lg:gap-0"
+            >
+              <h1 class="font-semibold text-3xl">15+</h1>
+              <p class="font-semibold">Yearly Events</p>
+            </div>
+          </div>
+
+          <div class="item-1 items-center justify-center flex flex-col">
+            <i
+              class="ri-medal-line lg:ri-4x ri-6x text-green-500 -mb-4 -mt-5"
+            ></i>
+            <div
+              class="text-[#212427] flex flex-col text-center gap-3 lg:gap-0"
+            >
+              <h1 class="font-semibold text-3xl">50+</h1>
+              <p class="font-semibold">Achievment</p>
+            </div>
+          </div>
+          <div class="item-1 items-center justify-center flex flex-col">
+            <i
+              class="ri-history-line lg:ri-4x ri-6x text-blue-Z00 -mb-4 -mt-5"
+            ></i>
+            <div
+              class="text-[#212427] flex flex-col text-center gap-3 lg:gap-0"
+            >
+              <h1 class="font-semibold text-3xl">3+</h1>
+              <p class="font-semibold">Last Competition</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header -->
+
+      <!-- story -->
+      <div class="container w-full max-h-screen">
+        <div class="header flex items-center justify-center my-14">
+          <h1 class="font-semibold text-3xl">Featured Story</h1>
+        </div>
+        <div
+          class="box flex lg:flex-row flex-col items-center gap-5 justify-center"
+        >
+          <div class="box-1 h-[540px] w-[390px]">
+            <div
+              class="pict bg-[url(/assets/story/comed.jpg)] w-full h-[55%] bg-cover bg-center p-10"
+            >
+              <div class="content border-t-4 border-purple-600 w-36 p-1"></div>
+              <h1 class="text-[#fafafa] font-semibold text-sm">Competition</h1>
+            </div>
+            <div class="desc w-full h-[45%] bg-purple-600 p-8">
+              <h1 class="text-[#fafafa] font-semibold text-2xl">
+                Kopramsega Mengikuti Kompetisi Comed
+              </h1>
+            </div>
+          </div>
+          <div class="box-1 h-[540px] w-[390px]">
+            <div
+              class="pict bg-[url(/assets/story/gsc.jpg)] w-full h-[55%] bg-cover bg-center p-10"
+            >
+              <div class="content border-t-4 border-green-500 w-36 p-1"></div>
+              <h1 class="text-[#fafafa] font-semibold text-sm">Competition</h1>
+            </div>
+            <div class="desc w-full h-[45%] bg-green-500 p-8">
+              <h1 class="text-[#fafafa] font-semibold text-2xl">
+                Kopramsega Mengikuti Kompetisi Ganesha Scout Competition
+              </h1>
+            </div>
+          </div>
+          <div class="box-1 h-[540px] w-[390px]">
+            <div
+              class="pict bg-[url(/assets/story/defile.JPG)] w-full h-[55%] bg-cover bg-center p-10"
+            >
+              <div class="content border-t-4 border-blue-900 w-36 p-1"></div>
+              <h1 class="text-[#fafafa] font-semibold text-sm">Competition</h1>
+            </div>
+            <div class="desc w-full h-[45%] bg-blue-900 p-8">
+              <h1 class="text-[#fafafa] font-semibold text-2xl">
+                Kopramsega Menjadi Juara 1 Pada Defile Competition
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- story -->
+
+      <!-- LASTEST EVENT -->
+      <!-- LASTEST EVENT -->
+    </main>
+
+    <!-- menu -->
+    <script src="/js/menu.js"></script>
+  </body>
+</html>
